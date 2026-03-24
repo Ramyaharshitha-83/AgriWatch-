@@ -1,0 +1,23 @@
+{
+  "name": "AgriWatch",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "forwardPorts": [8501],
+  "portsAttributes": {
+    "8501": {
+      "label": "AgriWatch Dashboard",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      }
+    }
+  }
+}

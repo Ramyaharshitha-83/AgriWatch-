@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & Models
+data/*.csv
+data/*.json
+models/*.pkl
+models/*.joblib
+
+# Streamlit
+.streamlit/cache
+.streamlit/secrets.toml
+
+# Node
+node_modules/
+package-lock.json
